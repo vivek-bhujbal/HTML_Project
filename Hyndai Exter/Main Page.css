@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /*background-color: lightgoldenrodyellow;*/
+    background-color: rgb(228, 220, 220);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    background-color: rgb(38, 35, 35);
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(141, 136, 127);
+}
+li{
+    display: inline-block;
+    padding: 20px;
+}
+li a:visited{
+    color: white;
+}
+/*li a:hover{
+    font-size: 20px;
+}*/
+a{
+    text-decoration: none;
+}
+img{
+    margin-top: 20px;
+    background-size: cover;
+    width: 100%;
+}
+i{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+/*Navigation Bar 2*/
+.nav ul{
+    list-style-type: none;
+    padding: 10px;
+    background-color: rgb(34, 72, 133);
+    margin-top: -10px;
+    position: sticky;
+    top: 0px;
+}
+.nav li{
+    color: aliceblue;
+    font-size: 20px;
+}
+.nav{
+    color: white;
+    font-size: 25px;
+}
+.nav i{
+    font-size: 20px;
+}
+/*Navigation Bar 3*/
+.nav2 ul{
+    list-style-type: none;
+    padding: 8px;
+    background-color: rgb(135, 121, 100);
+    
+}
+.nav2 li{
+    color: aliceblue;
+    font-size: 18px;
+}
+div.container{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+div.container p{
+    margin-top: 15px;
+    word-spacing: 5px;
+}
+div.container img{
+    background-size: cover;
+    width: 100%;
+}
